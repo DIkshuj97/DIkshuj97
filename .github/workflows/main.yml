@@ -1,7 +1,7 @@
 on:
     workflow_dispatch:
     schedule:
-        - cron: '30 19 * * *' # every 5 minutes
+        - cron: '30 18 * * *'
     push:
         branches:
         - master
